@@ -1,0 +1,54 @@
+.Counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: auto;
+}
+
+.Button {
+    min-width: 30px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #3a86ff;
+    box-shadow: 0 5px #4433ff;
+   
+    
+    
+}
+
+.Number {
+    font-size: 25px;
+    padding: 20px;
+    margin: 0;
+    
+}
+
+.Controls {
+   display: flex;
+   align-items: center
+ 
+    
+}
+
+
+
+  .Button:hover {
+    box-shadow: 0 3px #4433ff;
+    top: 1px;
+  }
+  .Button:active {
+    box-shadow: 0 0 #4433ff;
+    top: 5px;
+  }
+

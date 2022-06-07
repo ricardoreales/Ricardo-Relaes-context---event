@@ -1,0 +1,79 @@
+*{
+  list-style: none;
+  text-decoration:none;
+}
+
+.NavBar {
+    
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    background: rgb(59, 59, 58);
+    z-index: 2;
+  }
+  
+  .Categories {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .Option {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #3a86ff;
+    box-shadow: 0 5px #4433ff;
+    
+  }
+
+  .ActiveOption {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #429900;
+    box-shadow: 0 5px #014902;
+  }
+  
+  .NavLink {
+    color :rgb(255, 0, 0)
+  }
+
+
+ 
+  .Option:hover {
+    box-shadow: 0 3px #4433ff;
+    top: 1px;
+    box-shadow: 0 0 #4433ff;
+    top: 5px;
+  }
+
+
+  .h3style{
+    color: white;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin: 10px;
+  }
