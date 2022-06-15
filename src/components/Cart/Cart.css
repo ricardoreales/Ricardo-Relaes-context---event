@@ -1,12 +1,15 @@
 .cartStyleContainer{
     display: flex;
     background-color: rgb(52, 53, 53);
-    justify-content: space-around
-
+    justify-content: center;
 }
 
+table {
+    border:1px solid black;
+    width: 80%;
+}
 
-td {
+.tableTitle td {
     color: aqua;
     padding: 30px;
 }
