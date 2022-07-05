@@ -1,4 +1,4 @@
-ADJUNTO MODIFICACIONES DEL DESAFIO DE RENDER CONDICIONAL 
+proyecto finalizado.  ricardo reales 
 
 
 
